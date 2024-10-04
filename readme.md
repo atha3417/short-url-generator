@@ -19,10 +19,6 @@ Aplikasi ini adalah pembuat Short URL yang menggunakan **Node.js** dan **MySQL**
 
 3. Import database dari file `db.sql`:
 
-    ```bash
-    mysql -u root -p shorturl < db.sql
-    ```
-
 4. Sesuaikan credential database di file `utils/db.js`:
 
     ```javascript
